@@ -1,0 +1,16 @@
+name: 'bts-create-gke-repo'
+description: 'create repo for hosting gke pipeline'
+author: BTSavvy
+branding:
+  icon: box
+  color: orange
+inputs:
+  token:
+    description: 'The oauth token'
+    required: true
+outputs:
+  data:
+    description: 'The placeholder for any output data'
+runs:
+  using: 'docker'
+  image: 'docker://btsavvy/action-gke-wf-builder:latest'
