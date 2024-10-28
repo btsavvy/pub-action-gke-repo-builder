@@ -13,4 +13,4 @@ outputs:
     description: 'The placeholder for any output data'
 runs:
   using: 'docker'
-  image: 'docker://btsavvy/action-gke-wf-builder:latest'
+  image: 'docker://btsavvy/action-gke-repo-builder:latest'
